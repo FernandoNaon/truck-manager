@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira sans", sans-serif;
+    font-size: 16px;
+}
+.background-container {
+    position: relative;
+    width: 100vw;
+    margin-top: 5rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.truck-data p {
+    margin-bottom: 0 !important;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.filter input {
+    flex: 0 1 100px;
+}
+
+.alert {
+    width: 100vw;
+}
